@@ -52,7 +52,7 @@
 (Apenas copie toda linha e cole, o Termux irá fazer tudo automaticamente)
 
 
-<summary>Para quem nunca usou o Termux ou está usando o bot pela primeira vez:
+<summary>Para quem nunca usou o Termux:
 
 ```bash
 > termux-setup-storage && pkg install git -y && pkg install unzip -y && git clone https://github.com/italuH/Tiringa-BOT && cd Tiringa-BOT && unzip bot.zip && bash install.sh && npm start
