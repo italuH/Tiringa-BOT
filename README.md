@@ -37,6 +37,8 @@
 > bash install.sh     (para instalar todas as dependências)
 
 ```
+## Preview bash
+![Screenshot gif](https://raw.githubusercontent.com/italuH/Tiringa-BOT/main/ezgif-2-849390a68d2e.gif)
 
 ## Para iniciar o bot use:
 
