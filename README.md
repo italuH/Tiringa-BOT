@@ -12,7 +12,7 @@
 
 ## Olá, eu sou o Italu👋
 
-<summary>Como instalar o Tiringa-BOT:</summary>
+<summary>Como instalar o  Tiringa-BOT:</summary>
 
 ### Requisitos:
 
@@ -30,8 +30,8 @@
 > termux-setup-storage     (você precisa dar acesso aos seus arquivos)
 > pkg install git     (necessário para baixar os arquivos do bot)
 > git clone https://github.com/italuH/Tiringa-BOT     (baixa os arquivos do bot)
-> cd .Tiringa-BOT     (abre a pasta do bot)
-> unzip tiringa.zip     (descompacta os arquivos do bot)
+> cd Tiringa-BOT    (abre a pasta do bot)
+> unzip bot.zip     (descompacta os arquivos do bot)
 > bash install.sh     (para instalar todas as dependências)
 
 ```
