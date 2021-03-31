@@ -21,7 +21,7 @@
 > cd downloads (abre a pasta downloads)
 > git clone https://github.com/italuH/Tiringa-BOT (baixa os arquivos do bot)
 > cd Tiringa-BOT (abre a pasta do bot)
-> unzip .tiringa.zip (NÃO CONFUNDA O NOME DO ARQUIVO, TEM UM . NO COMEÇO)
+> unzip .tiringa.zip (descompacta os arquivos do bot)
 > bash install.sh (para instalar todas as dependências)
 
 ```
