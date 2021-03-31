@@ -58,7 +58,7 @@ json
 	"prefixo": "$",
 	"ownerNumber": "62858xxxxx",
 }
-`` `
+```
 
 ## Funções:
 
