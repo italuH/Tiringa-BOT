@@ -73,5 +73,4 @@ Listar em breve...
 
 - [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys) 
 - [MhankBarBar](https://github.com/mhankbarbar)
-- [NazwaS](https://github.com/NazwaS)
 
