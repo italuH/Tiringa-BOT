@@ -12,9 +12,12 @@
 
 ## Olá, eu sou o Italu <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">
 
-<summary>Como instalar o  Tiringa-BOT:</summary>
 
-### Requisitos:
+<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif" alt="Mario Game" width="600" />
+
+<summary>Como instalar o  Tiringa-BOT<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px"></summary>
+
+### Requisitos<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
 
 ```bash
 
@@ -23,7 +26,7 @@
 > Dois Celulares     (você irá precisar escanear o código qr)
 
 ```
-## Comandos:
+## Comandos<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
 
 ```bash
 
@@ -73,4 +76,5 @@ Listar em breve...
 
 - [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys) 
 - [MhankBarBar](https://github.com/mhankbarbar)
+
 
