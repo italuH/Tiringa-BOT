@@ -48,7 +48,28 @@
 > npm start    (irá iniciar o bot)
 
 ```
+## Caso prefira usar apenas um comando:
+(Apenas copie toda linha e cole, o Termux irá fazer tudo automaticamente)
 
+
+<summary>Para quem nunca usou o Termux ou está usando o bot pela primeira vez:
+
+```bash
+> termux-setup-storage && pkg install git -y && pkg install unzip -y && git clone https://github.com/italuH/Tiringa-BOT && cd Tiringa-BOT && unzip bot.zip && bash install.sh && npm start
+
+```
+
+<summary>Para quem já usa o Termux ou já usou algum bot:
+
+```bash
+> git clone https://github.com/italuH/Tiringa-BOT && cd Tiringa-BOT && unzip bot.zip && bash install.sh && npm start
+```
+
+<summary>Se vocé já usou o bot alguma vez use apenas:
+
+```bash
+> cd Tiringa-BOT && npm start
+```
 
 ## Para alterar informações básicas do bot:
 
