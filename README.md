@@ -56,7 +56,7 @@ Procure pelo prefix no arquivo index na linha 86
 Os números do criador ficam nas linhas 117 e 642
 
 ```
-json
+js
 {
 	"prefixo": "$",
 	"ownerNumber": "62858xxxxx",
