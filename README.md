@@ -59,7 +59,7 @@ Os números do criador ficam nas linhas 117 e 642
 js
 {
 	"prefixo": "$",
-	"ownerNumber": "62858xxxxx",
+	"ownerNumber": "5574999510904",
 }
 ```
 
