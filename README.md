@@ -23,7 +23,7 @@
 
 > Termux instalado
 > WhatsApp instalado
-> Dois Celulares     (você irá precisar escanear o código qr)
+> 2 Celulares     (você irá precisar escanear o código qr)
 
 ```
 ## Comandos<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
