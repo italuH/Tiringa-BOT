@@ -1,4 +1,16 @@
-### Olá, eu sou o Italu👋
+<p align="center">
+<img src="https://i.ibb.co/6vL882L/20210218-155834.jpg" width="410" height="380"/>
+</p>
+<p align="center">
+<a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Whatsapp Bot Para Termux-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://github.com/mhankbarbar"><img title="Author" src="https://img.shields.io/badge/Author-Italu-red.svg?style=for-the-badge&logo=github"></a>
+</p>
+
+
+
+## Olá, eu sou o Italu👋
 
 <summary>Como instalar o Tiringa-BOT:</summary>
 
@@ -33,6 +45,18 @@
 > npm start    (irá iniciar o bot)
 
 ```
+
+
+## Para alterar informações básicas do bot:
+
+Procure pelo prefix no arquivo index na linha 86
+Os números do criador ficam nas linhas 117 e 642
+`` `json
+{
+	"prefixo": "$",
+	"ownerNumber": "62858xxxxx",
+}
+`` `
 
 ## Funções:
 
