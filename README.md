@@ -2,7 +2,7 @@
 <img src="https://i.ibb.co/6vL882L/20210218-155834.jpg" height="200"/>
 </p>
 <p align="center">
-<a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Whatsapp Bot Para Termux-black?colorA=red&style=for-the-badge"></a>
+<a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Whatsapp--Bot Para Termux-black?colorA=red&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/italuH"><img title="Criador" src="https://img.shields.io/badge/Criador-Italu-cyan.svg?style=for-the-badge&logo=github"></a>
