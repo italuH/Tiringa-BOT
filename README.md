@@ -8,21 +8,21 @@
 
 > Termux instalado
 > WhatsApp instalado
-> Dois Celulares(você irá precisar escanear o código qr)
+> Dois Celulares     (você irá precisar escanear o código qr)
 
 ```
 ## Comandos:
 
 ```bash
 
-> termux-setup-storage (você precisa dar acesso aos seus arquivos)
-> pkg install git (necessário para baixar os arquivos do bot)
-> cd storage (abre a pasta storage)
-> cd downloads (abre a pasta downloads)
-> git clone https://github.com/italuH/Tiringa-BOT (baixa os arquivos do bot)
-> cd Tiringa-BOT (abre a pasta do bot)
-> unzip .tiringa.zip (descompacta os arquivos do bot)
-> bash install.sh (para instalar todas as dependências)
+> termux-setup-storage     (você precisa dar acesso aos seus arquivos)
+> pkg install git     (necessário para baixar os arquivos do bot)
+> cd storage     (abre a pasta storage)
+> cd downloads     (abre a pasta downloads)
+> git clone https://github.com/italuH/Tiringa-BOT     (baixa os arquivos do bot)
+> cd Tiringa-BOT     (abre a pasta do bot)
+> unzip .tiringa.zip     (descompacta os arquivos do bot)
+> bash install.sh     (para instalar todas as dependências)
 
 ```
 
@@ -30,11 +30,13 @@
 
 ```bash
 
-> npm start (irá iniciar o bot)
+> npm start    (irá iniciar o bot)
 
 ```
 
+## Funções:
 
+Listar em breve...
 
 
 
