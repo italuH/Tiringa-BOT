@@ -81,10 +81,10 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Italu🧙‍♂️\n' 
             + 'ORG:Dono do Tiringa;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=557499510904:+55 74 9951 0904\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=557499510904:+55 74 9951-0904\n' 
             + 'END:VCARD'
 
-//_FUCTION REGISTRO
+//_FUCTION REGISTRO/DINHEIRO
 const getLevelingXp = (sender) => {
             let position = false
             Object.keys(_level).forEach((i) => {
@@ -1139,6 +1139,7 @@ tiringa.on('group-participants-update', async (anu) => {
         } else if (levelRole > 41) {
             role = '🛐Grande Mestre🛐'
         }
+                        
  //_XP SEM LEVELING ATIVO 
 if (isUser && isGroup) {
             const currentLevel = getLevelingLevel(sender)
@@ -1156,7 +1157,8 @@ if (isUser && isGroup) {
                 console.error(err)
             }
         }   
-//_XP LEVELING ATIVO
+                        
+//_XP COM LEVELING ATIVO
 if (isGroup && isUser && isLevelingOn) {
             const currentLevel = getLevelingLevel(sender)
             const checkId = getLevelingId(sender)
@@ -1305,8 +1307,10 @@ oi ${pushname} use ${prefix}menu caso queira usar meus comandos🧙‍♂️
 reply(textmenu)
         break
 }
-
+              
+//_COMANDOS
 switch(command) {
+//_MENU
 case 'help':
 case 'menu':
 case '?':
@@ -1330,6 +1334,7 @@ const tanggal = `${thisDay}, ${day} de ${myMonths[bulan]} de ${year}`
 const serial = getRegisterSerial(sender)
 const idade = getRegisterAge(sender)
 const nreg = getRegisterName(sender)
+const checATM = checkATMuser(sender)
 const Menu = {
 text:
  `      ☆━✪🕴  ∴₰Ⱦꪋℓo፝֯֟ ߷  🕴✪━☆
@@ -1357,6 +1362,7 @@ text:
 ❁➸ Registrado: ✅
 ❁➸ Nome de registro: ${nreg}
 ❁➸ Idade: ${idade}
+❁➸ Dinheiro: ${checATM}
 ❁➸ Level: ${useLevel}
 ❁➸ XP: ${useXp}/${requireXp}
 ❁➸ Patente: ${role}
@@ -1368,14 +1374,14 @@ text:
     ✅  COMANDOS NOVOS:
       ❧ roleta
       ❧ contar
-       earrape
+      ❧ earrape
 ｡☆✼━━━━━━ ★ ━━━━━━✼☆｡
       ✔ REMOVIDOS:     
-       ❧ o comando DDD foi removido
+      ❧ o comando DDD foi removido
 ｡☆✼━━━━━━ ★ ━━━━━━✼☆｡
       ⚠️AVISO:
-      ❧ versão 10.0 no github
-       use ${prefix}git para obter o link
+      ❧ versão 12.0 no github
+      use ${prefix}git para obter o link
       ❧ comandos hentai em breve...
       ❧ alguns novos comandos possuem
       limite de uso então não *ABUSE*
@@ -1481,73 +1487,73 @@ text:
 ┃ _Cria uma imagem no estilo Tik Tok_
 ┠⊱ ${prefix}neon (Texto)
 ┃ _Cria uma imagem no estilo neon_
-┠⊱ ${prefix}hpotter
+┠⊱ ${prefix}hpotter (Texto)
 ┃ _Cria uma imagem no estilo Harry Potter_
-┠⊱ ${prefix}gaming
+┠⊱ ${prefix}gaming (Texto)
 ┃ _Cria uma imagem no estilo gaming_
-┠⊱ ${prefix}bneon
+┠⊱ ${prefix}bneon (Texto)
 ┃ _Cria uma imagem no estilo neon_
-┠⊱ ${prefix}matrix
+┠⊱ ${prefix}matrix (Texto)
 ┃ _Cria uma imagem no estilo Matrix_
-┠⊱ ${prefix}breakwall
+┠⊱ ${prefix}breakwall (Texto)
 ┃ _Cria uma imagem no estilo breakwall_
-┠⊱ ${prefix}dropwater
+┠⊱ ${prefix}dropwater (Texto)
 ┃ _Cria uma imagem no estilo dropwater_
-┠⊱ ${prefix}wolflogo
+┠⊱ ${prefix}wolflogo (Texto)
 ┃ _Cria uma imagem no estilo wolflogo_
-┠⊱ ${prefix}tfire
+┠⊱ ${prefix}tfire (Texto)
 ┃ _Cria uma imagem no estilo tfire_
-┠⊱ ${prefix}sandw
+┠⊱ ${prefix}sandw (Texto)
 ┃ _Cria uma imagem no estilo sandw_
-┠⊱ ${prefix}firofiro
+┠⊱ ${prefix}firofiro (Texto)
 ┃ _Cria uma imagem no estilo free fire_
-┠⊱ ${prefix}text3d
+┠⊱ ${prefix}text3d (Texto)
 ┃ _Cria uma imagem no estilo text3d_
-┠⊱ ${prefix}text3d2
+┠⊱ ${prefix}text3d2 (Texto)
 ┃ _Cria uma imagem no estilo text3d2_
-┠⊱ ${prefix}phlogo
+┠⊱ ${prefix}phlogo (Texto)
 ┃ _Cria uma imagem no estilo PornHub_
-┠⊱ ${prefix}bpmek
+┠⊱ ${prefix}bpmek (Texto)
 ┃ _Cria uma imagem no estilo BlackPmek_
-┠⊱ ${prefix}folhas
+┠⊱ ${prefix}folhas (Texto)
 ┃ _Cria uma imagem com texto entre folhas_
-┠⊱ ${prefix}tlight
+┠⊱ ${prefix}tlight (Texto)
 ┃ _Cria uma imagem no estilo tlight_
-┠⊱ ${prefix}sparkling
+┠⊱ ${prefix}sparkling (Texto)
 ┃_Cria uma imagem no estilo sparkling_
-┠⊱ ${prefix}neve
+┠⊱ ${prefix}neve (Texto)
 ┃_Cria uma imagem com texto na neve_
-┠⊱ ${prefix}crismes
+┠⊱ ${prefix}crismes (Texto)
 ┃_Cria uma imagem no estilo crismes_
-┠⊱ ${prefix}retro
+┠⊱ ${prefix}retro (Texto)
 ┃_Cria uma imagem no estilo retro_
 ┠⊱ ${prefix}watercolor
 ┃_Cria uma imagem no estilo watercolor_
-┠⊱ ${prefix}pubglogo
+┠⊱ ${prefix}pubglogo (Texto)
 ┃_Cria uma imagem no estilo pubg_
-┠⊱ ${prefix}bf4
+┠⊱ ${prefix}bf4 (Texto)
 ┃_Cria uma imagem no estilo bf4_
-┠⊱ ${prefix}cslogo
+┠⊱ ${prefix}cslogo (Texto)
 ┃_Cria uma imagem no estilo CS_
-┠⊱ ${prefix}lithgtext
+┠⊱ ${prefix}lithgtext (Texto)
 ┃_Cria uma imagem no estilo lithgtext_
-┠⊱ ${prefix}silktext
+┠⊱ ${prefix}silktext (Texto)
 ┃_Cria uma imagem no estilo silktext_
-┠⊱ ${prefix}flametext
+┠⊱ ${prefix}flametext (Texto)
 ┃_Cria uma imagem no estilo flametext_
-┠⊱ ${prefix}crosslogo
+┠⊱ ${prefix}crosslogo (Texto)
 ┃_Cria uma imagem no estilo crosslogo_
-┠⊱ ${prefix}glowtext
+┠⊱ ${prefix}glowtext (Texto)
 ┃_Cria uma imagem no estilo glowtext_
-┠⊱ ${prefix}marvellogo
+┠⊱ ${prefix}marvellogo (Texto)
 ┃_Cria uma imagem no estilo marvellogo_
-┠⊱ ${prefix}vingador
+┠⊱ ${prefix}vingador (Texto)
 ┃_Cria uma imagem no estilo vingador_
-┠⊱ ${prefix}halloween
+┠⊱ ${prefix}halloween (Texto)
 ┃_Cria uma imagem no estilo halloween_
-┠⊱ ${prefix}lol
+┠⊱ ${prefix}lol (Texto)
 ┃_Cria uma imagem no estilo LOL_
-┠⊱ ${prefix}hacker
+┠⊱ ${prefix}hacker (Texto)
 ┃_Cria uma imagem no estilo hacker_
 ┗━━━━━━ ★ ━━━━━━༺
 
@@ -1607,7 +1613,7 @@ text:
 
 ▀▄▀▄🔧 FERRAMENTAS 🔧🎲▄▀▄▀
 ┏━━━━━━ ★ ━━━━━━༺
-┠⊱ ${prefix}st
+┠⊱ ${prefix}st 
 ┃ _Cria um sticker em 512x512_
 ┠⊱ ${prefix}sticker
 ┃ _Cria um sticker_
@@ -1619,7 +1625,7 @@ text:
 ┃ _Converte sticker em imagem_
 ┠⊱ ${prefix}tomp3
 ┃ _Converte vídeo em áudio_
-┠⊱ ${prefix}play (texto)
+┠⊱ ${prefix}play (título)
 ┃ _Baixa o áudio de um vídeo no YouTube_
 ┠⊱ ${prefix}tts (língua) (texto)
 ┃ _Texto para áudio(voz do google)_
@@ -1677,10 +1683,12 @@ costum(Menu, text, tescuk, cr)
 ┠⊱ ${prefix}menugrupo
 ┗━━━━━ ★ ━━━━━༺*/
 
+//_GIT DO BOT
 case 'git':
 tiringa.sendMessage(from, `https://github.com/italuH/Tiringa-BOT` , text, {quoted: mek})
 break
 
+//_LEVEL ATUAL
 case 'level':
 if (isBanned) return reply(mess.erro.baned)   
 if (!isGroup) return reply(mess.only.group)
@@ -1702,9 +1710,10 @@ levela =
 ┃│‣ Patente: ${role}
 ┃╰───────────
 ┗━━━━━━━━━━━━┛`     
-					tiringa.sendMessage(from, levela, text, {quoted: mek, contextInfo: {mentionedJid: [sender]}})
-					break
+tiringa.sendMessage(from, levela, text, {quoted: mek, contextInfo: {mentionedJid: [sender]}})
+break
 
+//_ENVIA O VCARD
 case 'italu':
 const sentMsg  = await tiringa.sendMessage(from, {displayname: "Italu🧙‍♂️", vcard: vcard}, MessageType.contact)
 break
@@ -1778,13 +1787,14 @@ case 'getses':
             tiringa.sendFile(from, sesPic, 'session.png', '^_^...', id)
             break
 
+//_CONTADOR DE LETRAS
 case 'contar':
-            if (args.length == 0) return reply( '0 letras, não há texto😀')
+            if (args.length == 0) return reply( '0 letras, pois obviamente não há texto😀')
 			const count = body.slice(8).length
             if (count === 1) {
             reply(`O texto possui ${count} letra.`)
             } else if (count > 1) {
-			reply(`O texto possui ${count} letras.`)
+	    reply(`O texto possui ${count} letras.`)
             }
 			break
 
@@ -1986,6 +1996,7 @@ case 'bokep':
                  tiringa.sendMessage(from, randBokep, image, {quoted: mek, caption: randTeks})
 				break
 
+//_INFORMAÇÕES DO USUÁRIO
 case 'infome':
 case 'perfil':
   if (!isUser) return reply(mess.only.registrarB)
@@ -2018,77 +2029,84 @@ ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gamb
   tiringa.sendMessage(from, its, image, {quoted: mek, caption: pf, contextInfo: {mentionedJid: [sender]}})
   break
 
+//_ENVIA O WA.ME DO CRIADOR
 case 'criador':
 case 'owner':
 italuft = fs.readFileSync('./teste/gojo.jpg')
 tiringa.sendMessage(from, italuft, image, {quoted: mek, caption: `☆━✪🕴  ∴₰Ⱦꪋℓo፝֯֟ ߷  🕴✪━☆\n\nChat do baiano: wa.me/+5574999510904`})
 break
 
-                     case 'slow':
-					low = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-					slo = await tiringa.downloadAndSaveMediaMessage(low)
-					ran = getRandom('.mp3')
-					exec(`ffmpeg -i ${slo} -filter:a "atempo=0.9,asetrate=44100" ${ran}`, (err, stderr, stdout) => {
-						fs.unlinkSync(slo)
-						if (err) return reply('Error!')
-						hah = fs.readFileSync(ran)
-						tiringa.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', ptt:true, quoted: mek})
-						fs.unlinkSync(ran)
-					})
-				break
-				case 'esquilo':
-					pai = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+//_EFEITO SLOW PARA AUDIO
+case 'slow':
+low = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+slo = await tiringa.downloadAndSaveMediaMessage(low)
+ran = getRandom('.mp3')
+exec(`ffmpeg -i ${slo} -filter:a "atempo=0.9,asetrate=44100" ${ran}`, (err, stderr, stdout) => {
+fs.unlinkSync(slo)
+if (err) return reply('Error!')
+hah = fs.readFileSync(ran)
+tiringa.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', ptt:true, quoted: mek})
+fs.unlinkSync(ran)
+})
+break
 
-					tup = await tiringa.downloadAndSaveMediaMessage(pai)
-					ran = getRandom('.mp3')
-					exec(`ffmpeg -i ${tup} -filter:a "atempo=0.7,asetrate=65100" ${ran}`, (err, stderr, stdout) => {
-						fs.unlinkSync(tup)
-						if (err) return reply('Error!')
-						hah = fs.readFileSync(ran)
-						tiringa.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', ptt:true, quoted: mek})
-						fs.unlinkSync(ran)
-					})
-				break
-				case 'gemuk':
-					muk = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+//_EFEITO ESQUILO PARA AUDIO
+case 'esquilo':
+pai = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+tup = await tiringa.downloadAndSaveMediaMessage(pai)
+ran = getRandom('.mp3')
+exec(`ffmpeg -i ${tup} -filter:a "atempo=0.7,asetrate=65100" ${ran}`, (err, stderr, stdout) => {
+fs.unlinkSync(tup)
+if (err) return reply('Error!')
+hah = fs.readFileSync(ran)
+tiringa.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', ptt:true, quoted: mek})
+fs.unlinkSync(ran)
+})
+break
 
-					gem = await tiringa.downloadAndSaveMediaMessage(muk)
-					ran = getRandom('.mp3')
-					exec(`ffmpeg -i ${gem} -filter:a "atempo=1.6,asetrate=22100" ${ran}`, (err, stderr, stdout) => {
-						fs.unlinkSync(gem)
-						if (err) return reply('Error!')
-						hah = fs.readFileSync(ran)
-						tiringa.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', ptt:true, quoted: mek})
-						fs.unlinkSync(ran)
-					})
-				break
-				case 'bass':                 
-					ass = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+//_EFDEITO GIGANTE PARA AUDIO	
+case 'gemuk':
+muk = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+gem = await tiringa.downloadAndSaveMediaMessage(muk)
+ran = getRandom('.mp3')
+exec(`ffmpeg -i ${gem} -filter:a "atempo=1.6,asetrate=22100" ${ran}`, (err, stderr, stdout) => {
+fs.unlinkSync(gem)
+if (err) return reply('Error!')
+hah = fs.readFileSync(ran)
+tiringa.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', ptt:true, quoted: mek})
+fs.unlinkSync(ran)
+})
+break
 
-					bas = await tiringa.downloadAndSaveMediaMessage(ass)
-					ran = getRandom('.mp3')
-					exec(`ffmpeg -i ${bas} -af equalizer=f=20:width_type=o:width=2:g=15 ${ran}`, (err, stderr, stdout) => {
-						fs.unlinkSync(bas)
-						if (err) return reply('Error!')
-						hah = fs.readFileSync(ran)
-						tiringa.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', ptt:true, quoted: mek})
-						fs.unlinkSync(ran)
-					})
-					break
+//_AUMENTA O BASS DE UM AUDIO	
+case 'bass':                 
+ass = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+bas = await tiringa.downloadAndSaveMediaMessage(ass)
+ran = getRandom('.mp3')
+exec(`ffmpeg -i ${bas} -af equalizer=f=20:width_type=o:width=2:g=15 ${ran}`, (err, stderr, stdout) => {
+fs.unlinkSync(bas)
+if (err) return reply('Error!')
+hah = fs.readFileSync(ran)
+tiringa.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', ptt:true, quoted: mek})
+fs.unlinkSync(ran)
+})
+break
 
-              case 'earrape':                 
-					ass = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-					bas = await tiringa.downloadAndSaveMediaMessage(ass)
-					ran = getRandom('.mp3')
-					exec(`ffmpeg -i ${bas} -af equalizer=f=90:width_type=o:width=2:g=30 ${ran}`, (err, stderr, stdout) => {
-						fs.unlinkSync(bas)
-						if (err) return reply('Error!')
-						hah = fs.readFileSync(ran)
-						tiringa.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', ptt:true, quoted: mek})
-						fs.unlinkSync(ran)
-					})
-					break
+//_DEIXA O AUDIO ESTOURADO		
+case 'earrape':                 
+ass = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+bas = await tiringa.downloadAndSaveMediaMessage(ass)
+ran = getRandom('.mp3')
+exec(`ffmpeg -i ${bas} -af equalizer=f=90:width_type=o:width=2:g=30 ${ran}`, (err, stderr, stdout) => {
+fs.unlinkSync(bas)
+if (err) return reply('Error!')
+hah = fs.readFileSync(ran)
+tiringa.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', ptt:true, quoted: mek})
+fs.unlinkSync(ran)
+})
+break
 
+//_INFORMAÇÕES DO BOT		
 case 'info':
   me = tiringa.user
   uptime = process.uptime()
@@ -2104,23 +2122,24 @@ case 'info':
   tiringa.sendMessage(from, buffer, image, {caption: inf, contextInfo: {mentionedJid: [me.jid]}})
   break
 
+//_INFORMAÇÕES DO GRUPO
 case 'infogp':
 case 'infogc':
-				case 'groupinfo':
-				case 'infogrup':
-				case 'grupinfo':
-                if (!isUser) return reply(mess.only.userB)
-                tiringa.updatePresence(from, Presence.composing)
-                if (!isGroup) return reply(mess.only.group)
-                let { owner, creation, participants, desc } = groupMetadata;
-                const creationTime = moment.unix(creation);
-                try {
-					ppUrl = await tiringa.getProfilePicture(from)
-					} catch {
-					ppUrl = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
-					}
-			    buffer = await getBuffer(ppUrl)
-                infogp = 
+case 'groupinfo':
+case 'infogrup':
+case 'grupinfo':
+if (!isUser) return reply(mess.only.userB)
+tiringa.updatePresence(from, Presence.composing)
+if (!isGroup) return reply(mess.only.group)
+let { owner, creation, participants, desc } = groupMetadata;
+const creationTime = moment.unix(creation);
+try {
+ppUrl = await tiringa.getProfilePicture(from)
+} catch {
+ppUrl = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+}
+buffer = await getBuffer(ppUrl)
+infogp = 
 ` 
   ‣Nome: ${groupName}
   ‣Quantidade de membros: ${groupMembers.length}
@@ -2129,21 +2148,21 @@ case 'infogc':
   ‣Total de membros: ${participants.length} membros
   ‣Descrição:
   ${desc ? desc : ''}`
-		        tiringa.sendMessage(from, buffer, image, {quoted: mek, caption: infogp})
-                break
+tiringa.sendMessage(from, buffer, image, {quoted: mek, caption: infogp})
+break
 
+//_TEMPO DE RESPOSTA DO BOT		
 case 'ping':
-  case 'speed':
+case 'speed':
 if (!isUser) return reply(mess.only.userB)
 const timestamp = speed();
 const latensi = speed() - timestamp
 tiringa.updatePresence(from, Presence.composing)
 uptime = process.uptime()
-tiringa.sendMessage(from, `Pong!\nTempo de resposta: ${latensi.toFixed(4)} segundos\n`, text, {
-  quoted: mek
-})
+tiringa.sendMessage(from, `Pong!\nTempo de resposta: ${latensi.toFixed(4)} segundos\n`, text, {quoted: mek})
 break
 
+//_BUSCA IMAGEM NO PINTEREST		
 case 'img':
 case 'image':
 case 'imagem':
@@ -2152,18 +2171,13 @@ if (args.length < 1) return reply('digite o que você desejabuscar')
 tiringa.updatePresence(from, Presence.composing)
 reply(mess.wait)
 try {
-data = await fetchJson(`https://api.fdci.se/sosmed/rep.php?gambar=${args}`, {
-  method: 'get'
-})
+data = await fetchJson(`https://api.fdci.se/sosmed/rep.php?gambar=${args}`, {method: 'get'})
 n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
-tiringa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Achei isso sobre: ${args}`
-})
-
+tiringa.sendMessage(from, pok, image, {quoted: mek, caption: `Achei isso sobre: ${args}`})
 } catch {
-  reply(`Não econtrei nada sobre ${agrs}...`)
+reply(`Não econtrei nada sobre ${agrs}...`)
 }
 break
 
