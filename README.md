@@ -49,7 +49,7 @@
 
 ```
 ## Caso prefira usar apenas um comando:
-(Apenas copie toda linha e cole, o Termux irá fazer tudo automaticamente)
+(Apenas copie toda a linha e cole, o Termux irá fazer tudo automaticamente)
 
 
 <summary>Para quem nunca usou o Termux:
