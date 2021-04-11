@@ -72,7 +72,7 @@ const ownerNumber = "5574999510904"
 const ownerName = "Italu"
 
 //_LISTA DE CRS
-const cr = "Tiringa-BOT v11.7"
+const cr = "Tiringa-BOT v12.0"
 const crfig = "Sticker criado com sucesso🔧"
 const crlv = "NOVO LEVEL🥳"
 
@@ -1341,7 +1341,7 @@ text:
 🧙‍♂️ BOT 🧙‍♂️
 ❁➸ Prefix:「 ${prefix} 」
 ❁➸ Nome: Tiringa-BOT
-❁➸ Versão 11.7
+❁➸ Versão 12.0
 ❁➸ Tempo online: ${temporizador(uptime)}
 ❁➸ Status: ON✅
 ❁➸ Horário: ${hr}
