@@ -97,5 +97,6 @@ Listar em breve...
 
 - [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys) 
 - [MhankBarBar](https://github.com/mhankbarbar)
-
+- [Kevza](https://github.com/kevzka)
+- [Toin](https://github.com/ToinNetuh)
 
