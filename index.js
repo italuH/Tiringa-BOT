@@ -40,8 +40,7 @@ const axios = require('axios').default;
 const Nekos = require('nekos.life');
 const neko = new Nekos();
 const imageToBase64 = require('image-to-base64');
-const util = require('util');
-const download = require('image-downloader')
+const util = require('util')
 
 //_ARQUIVOS DA LIB
 const {color, bgcolor} = require('./lib/color');
