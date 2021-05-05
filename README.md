@@ -39,7 +39,7 @@
 
 ```
 ## Preview bash
-![Screenshot gif](https://raw.githubusercontent.com/italuH/Tiringa-BOT/main/ezgif-2-849390a68d2e.gif)
+![Screenshot gif](https://raw.githubusercontent.com/italuH/Tiringa-BOT/main/ezgif-2-849390a68d2e.gif?token=ASS7GTNGGHJ6NMRRNR26KXTASK33A)
 
 ## Para iniciar o bot use:
 
