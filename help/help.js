@@ -7,7 +7,7 @@ const help = (pushname, prefix, temporizador, uptime, hr, tanggal, groupName, us
 🧙‍♂️ BOT 🧙‍♂️
 ≫ Prefix:「 ${prefix} 」
 ≫ Nome: Tiringa-BOT
-≫ Versão 12.9
+≫ Versão 13.0
 ≫ Tempo online: ${temporizador(uptime)}
 ≫ Status: ON✅
 ≫ Horário: ${hr}
