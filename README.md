@@ -9,7 +9,6 @@
 </p>
 
 
-
 ## Olá, eu sou o Italu <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">
 
 
@@ -80,6 +79,23 @@
 > cp -r /data/data/com.termux/files/home/Tiringa-BOT /sdcard/Download  
 ```
 O comando irá copiar os arquivos do bot para a pasta /Download
+
+<p align='center'>
+
+## Menus
+| Menus | Bot | 
+|------------ | ---------|
+| Info | ✔️ |
+| +18 | ✔️ |
+| Grupo | ✔️ |
+| Mídia | ✔️ |
+| Imagem | ✔️ |
+| Diversão| ✔️ |
+| Anime | ✔️ |
+| Ferramentas | ✔️ |
+| Downloader | ✔️ |
+| Criador | ✔️ |
+<p align='center'>
 
 ## Agradecimentos especiais para
 
