@@ -83,7 +83,7 @@ O comando irá copiar os arquivos do bot para a pasta /Download
 <p align='center'>
 
 ## Menus
-| Menus | Bot | 
+| Menus | ⬇️ | 
 |------------ | ---------|
 | Info | ✔️ |
 | +18 | ✔️ |
