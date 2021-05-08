@@ -107,6 +107,7 @@ O comando irá copiar os arquivos do bot para a pasta /Download
 - [Resen](https://github.com/Resen22194)
 - [Causs](https://github.com/Admcauss-alt)
 - [LSR]
+- [Fxc7](https://github.com/Fxc7)
 
 
 
