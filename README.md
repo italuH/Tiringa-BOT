@@ -104,8 +104,8 @@ O comando irá copiar os arquivos do bot para a pasta /Download
 - [Kevza](https://github.com/kevzka)
 - [Toin](https://github.com/ToinNetuh)
 - [NazwaS](https://github.com/NazwaS)
-- [Resen]
-- [Causs]
+- [Resen](https://github.com/Resen22194)
+- [Causs](https://github.com/Admcauss-alt)
 - [LSR]
 
 
