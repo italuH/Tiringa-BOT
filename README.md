@@ -37,6 +37,12 @@
 > bash install.sh     (para instalar todas as dependências)
 
 ```
+## Caso queira o bot nos arquivos internos
+
+Faça o download do zip no link abaixo:
+
+[Módulos npm](https://mega.nz/file/Pw1CQayB#IyMmDeNRAw4Ra1kidcubDoRj0wegJUMc3FEiUNzW4YY)
+
 
 ## Preview bash
 ![Screenshot gif](https://raw.githubusercontent.com/italuH/Tiringa-BOT/main/ezgif-2-849390a68d2e.gif?token=ASS7GTNGGHJ6NMRRNR26KXTASK33A)
