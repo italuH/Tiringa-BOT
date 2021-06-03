@@ -62,7 +62,7 @@ const sotoy = JSON.parse(fs.readFileSync('./data/sotoy.json'))
 const { ptbr } = require('./mess')
 const totalcmd = JSON.parse(fs.readFileSync('./data/totalcmd.json'))[0].totalcmd
 const { Exkey } = JSON.parse(fs.readFileSync('./data/apikey.json')) 
-/*👆API KEY EX TEAM👆 adquira a sua key com*/o = 'wa.me/+558598669655'
+/*👆API KEY EX TEAM👆 adquira a sua key com*/o = 'wa.me/+555399726611'
 
 //_INFORMAÇÕES DO BOT(settings)
 const infos = JSON.parse(fs.readFileSync('./data/settings.json'))
