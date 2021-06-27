@@ -45,6 +45,8 @@ fi
 sleep 2
 clear
 
+apt-get install figlet -y
+
 figlet -c -f slant -t 'Tiringa-BOT' | lolcat 
 
 echo -e " ${CYAN}A instalar todas as dependências..." | lolcat -a -d 50 
