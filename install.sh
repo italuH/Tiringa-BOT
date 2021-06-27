@@ -47,6 +47,7 @@ sleep 2
 clear
 
 apt-get install figlet -y
+clear
 
 figlet -c -f slant -t 'Tiringa-BOT' | lolcat 
 
