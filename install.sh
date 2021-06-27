@@ -18,6 +18,7 @@ WHITE='\033[1;37m'
 
  echo -e " ${YELLOW}Iniciando..."
 sleep 4
+clear
 
 if [ -e "$HOME/../usr/bin/ruby" ]; then
 	echo -e " ${GREEN}ruby detectado prosseguindo..."
