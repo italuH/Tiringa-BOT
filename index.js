@@ -75,7 +75,6 @@ const z24 = JSON.parse(fs.readFileSync('./database/data/zm.json'))
 const _leveling = JSON.parse(fs.readFileSync('./database/data/leveling.json'));
 const antilink = JSON.parse(fs.readFileSync('./database/data/antilink.json'));
 const atsticker = JSON.parse(fs.readFileSync('./database/data/atsticker.json'));
-const antisticker = JSON.parse(fs.readFileSync('./database/data/antisticker.json'));
 const _simi = JSON.parse(fs.readFileSync('./database/data/simi.json'));
 const _bad = JSON.parse(fs.readFileSync('./database/data/bad.json'))
 const _badword = JSON.parse(fs.readFileSync('./database/data/badword.json'))
@@ -102,7 +101,6 @@ const infos = JSON.parse(fs.readFileSync('./database/data/settings.json'))
 const { prefix, ownerName, ownerNumber, botName, cdd, autoHourActivate, cr, crfig, crlv, crtt, crh } = infos
 
 public = true
-let tebakgambar = [];
 fake = 'a'
 blocked = []
 hitt = []
