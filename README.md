@@ -45,7 +45,7 @@ Faça o download do zip no link abaixo:
 
 
 ## Preview bash
-![Screenshot gif](https://raw.githubusercontent.com/italuH/Tiringa-BOT/main/ezgif-2-849390a68d2e.gif?token=ASS7GTNGGHJ6NMRRNR26KXTASK33A)
+![Screenshot gif](https://raw.githubusercontent.com/italuH/Tiringa-BOT/main/ezgif-6-59ef6c9dcafd.gif)
 
 ## Para iniciar o bot use:
 
