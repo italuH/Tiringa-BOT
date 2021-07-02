@@ -710,7 +710,7 @@ Use o comando ${prefix}menu para listar meus comandos
             const isAuto = isGroup ? atsticker.includes(from) : true
             const isAntiFa = isGroup ? antifake.includes(from) : true
             const bad = _bad.includes(budy)
-            const groupall = tiringa.chats.array.filter(v => v.jid.endsWith('g.us')).map(v => v.jid)
+          //const groupall = tiringa.chats.array.filter(v => v.jid.endsWith('g.us')).map(v => v.jid)
             const groupOwner = `${from.split('-')[0]}@s.whatsapp.net`
             const isGroupOwner = groupOwner.includes(sender)
             totalchat = await tiringa.chats.all()
