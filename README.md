@@ -115,7 +115,7 @@ O comando irá copiar os arquivos do bot para a pasta /Download
 - [LSR]
 - [Fxc7](https://github.com/Fxc7)
 - [GDR](https://github.com/viniciusgdr)
-
+- [THOTH](https://github.com/thothdeus)
 
 
 
