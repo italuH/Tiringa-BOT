@@ -112,7 +112,7 @@ O comando irá copiar os arquivos do bot para a pasta /Download
 - [NazwaS](https://github.com/NazwaS)
 - [Resen](https://github.com/Resen22194)
 - [Causs](https://github.com/Admcauss-alt)
-- [LSR]
+- [LSR](https://github.com/xMISTICx)
 - [Fxc7](https://github.com/Fxc7)
 - [GDR](https://github.com/viniciusgdr)
 - [THOTH](https://github.com/thothdeus)
