@@ -376,7 +376,7 @@ Use o comando ${prefix}menu para listar meus comandos
             const isAuto = isGroup ? atsticker.includes(from) : true
             const isAntiFa = isGroup ? antifake.includes(from) : true
             const bad = _bad.includes(budy)
-          //const groupall = tiringa.chats.array.filter(v => v.jid.endsWith('g.us')).map(v => v.jid)
+          
             const groupOwner = `${from.split('-')[0]}@s.whatsapp.net`
             const isGroupOwner = groupOwner.includes(sender)
             totalchat = await tiringa.chats.all()
@@ -391,7 +391,7 @@ Use o comando ${prefix}menu para listar meus comandos
                 tiringa.sendMessage(from, teks, text, {
                     quoted: {
                         key: {
-                            fromMe: false,
+                            fromMe: 
                             participant: `0@s.whatsapp.net`,
                             ...(from ? {
                                 remoteJid: "status@broadcast"
@@ -722,14 +722,7 @@ Use o comando ${prefix}menu para listar meus comandos
 		reply(`Link detectado, você vai ser expulso...`)
 		}, 0)
 		}*/
-if (isGroup && isAntiLink && !isOwner && !isGroupAdmins && isBotGroupAdmins){
-            if (chats.match(/(https:\/\/chat.whatsapp.com)/gi)) {
-                reply(`LINK DE GRUPO DETECTADO\n\nLinks de grupos não são permitidos nesse grupo, você será expulso`)
-                setTimeout(() =>{
-                tiringa.groupRemove(from, [sender])
-                }, 2000)
-            }
-        }
+
 
 
             if (!mek.message) return
