@@ -337,7 +337,7 @@ Use o comando ${prefix}menu para listar meus comandos
             const arrayQND2 = ['dias', 'semanas', 'meses', 'anos']
             const botNumber = tiringa.user.jid
             const ownerNumber = [`557499510904@s.whatsapp.net`, `557499896089@s.whatsapp.net`]
-            const liaN = [`5511962163969@s.whatsapp.net`]
+            const liaN = [`0@s.whatsapp.net`]
             const ownerNumberB = [`557499510904@s.whatsapp.net`]
             const isGroup = mek.key.remoteJid.endsWith('@g.us') ? true : false
             sender = mek.key.fromMe ? tiringa.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -383,58 +383,6 @@ Use o comando ${prefix}menu para listar meus comandos
             const isPremium = isOwner ? true : checkPremiumUser(sender, premium)
 	          const isBan = cekBannedUser(sender, ban)
 	
-            const forwd = {
-                forwardingScore: 1000,
-                isForwarded: true
-            }
-            const fakestatus = (teks) => {
-                tiringa.sendMessage(from, teks, text, {
-                    quoted: {
-                        key: {
-                            fromMe: 
-                            participant: `0@s.whatsapp.net`,
-                            ...(from ? {
-                                remoteJid: "status@broadcast"
-                            } : {})
-                        },
-                        message: {
-                            "imageMessage": {
-                                "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
-                                "mimetype": "image/jpeg",
-                                "caption": `Hai ${pushname}, ${ucapanWaktu}`,
-                                "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
-                                "fileLength": "28777",
-                                "height": 1080,
-                                "width": 1079,
-                                "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=",
-                                "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=",
-                                "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69",
-                                "mediaKeyTimestamp": "1610993486",
-                                "jpegThumbnail": fs.readFileSync('./stik/thumb.jpeg'),
-                                "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="
-                            }
-                        },
-                        contextInfo: {
-                            "forwardingScore": 999,
-                            "isForwarded": true
-                        }
-                    },
-                    sendEphemeral: true
-                })
-            }
-            const fakegroup = (teks) => {
-			tiringa.sendMessage(from, teks, text, {
-				quoted: {
-					key: {
-						fromMe: false,
-						participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "+18143393034@g.us" } : {})
-					},
-					message: {
-						conversation: fake
-					}
-				}
-			})
-		}
             
             function jsonformat(string) {
             return JSON.stringify(string, null, 2)
