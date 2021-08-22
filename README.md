@@ -37,7 +37,7 @@
 > npm start
 ```
 
-Em comadno unico:
+Em comando unico:
 ```bash
 > termux-setup-storage && pkg install git -y && git clone https://github.com/italuH/Tiringa-BOT && cd Tiringa-BOT && bash install.sh && npm start
 
@@ -55,7 +55,7 @@ Em comadno unico:
 > bash install.sh     
 > npm start
 ```
-Em coamdando unico:
+Em comando unico:
 ```bash
 > termux-setup-storage && cd storage && cd downloads && pkg install git -y && git clone https://github.com/italuH/Tiringa-BOT && cd Tiringa-BOT && bash install.sh && npm start
 
@@ -84,25 +84,6 @@ Para desativar o bot em PM2
 ## Preview bash<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/gandalf_parrot.gif" width="29px">
 
 ![Screenshot gif](https://raw.githubusercontent.com/italuH/Tiringa-BOT/main/ezgif-6-59ef6c9dcafd.gif)
-
-
-
-<p align='center'>
-
-## Menus
-| Menus | ⬇️ | 
-|------------ | ---------|
-| Info | ✔️ |
-| +18 | ✔️ |
-| Grupo | ✔️ |
-| Mídia | ✔️ |
-| Imagem | ✔️ |
-| Diversão| ✔️ |
-| Anime | ✔️ |
-| Ferramentas | ✔️ |
-| Downloader | ✔️ |
-| Criador | ✔️ |
-<p align='center'>
 
 ## Agradecimentos especiais para
 
