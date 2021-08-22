@@ -12,7 +12,6 @@
 ## Olá, eu sou o Italu <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">
 
 
-<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif" alt="Mario Game" width="600" />
 
 <summary>Como instalar o  Tiringa-BOT<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px"></summary>
 
@@ -30,61 +29,63 @@
 
 ```bash
 
-> termux-setup-storage     (você precisa dar acesso aos seus arquivos)
-> pkg install git     (necessário para baixar os arquivos do bot)
-> git clone https://github.com/italuH/Tiringa-BOT     (baixa os arquivos do bot)
-> cd Tiringa-BOT    (abre a pasta do bot)
-> bash install.sh     (para instalar todas as dependências)
-
-```
-## Caso queira o bot nos arquivos internos
-
-Faça o download do zip no link abaixo:
-
-[Módulos npm](https://mega.nz/file/Pw1CQayB#IyMmDeNRAw4Ra1kidcubDoRj0wegJUMc3FEiUNzW4YY)
-
-
-## Preview bash
-![Screenshot gif](https://raw.githubusercontent.com/italuH/Tiringa-BOT/main/ezgif-6-59ef6c9dcafd.gif)
-
-## Para iniciar o bot use:
-
-```bash
-
-> npm start    (irá iniciar o bot)
-
+> termux-setup-storage     
+> pkg install git     
+> git clone https://github.com/italuH/Tiringa-BOT    
+> cd Tiringa-BOT    
+> bash install.sh     
+> npm start
 ```
 
-## Caso prefira usar apenas um comando:
-(Apenas copie toda a linha e cole, o Termux irá fazer tudo automaticamente)
-
-
-<summary>Para quem nunca usou o Termux:
-
+Em comadno unico:
 ```bash
 > termux-setup-storage && pkg install git -y && git clone https://github.com/italuH/Tiringa-BOT && cd Tiringa-BOT && bash install.sh && npm start
 
 ```
-
-<summary>Para quem já usa o Termux ou já usou algum bot:
-
-```bash
-> git clone https://github.com/italuH/Tiringa-BOT && cd Tiringa-BOT && bash install.sh && npm start
-```
-
-<summary>Se vocé já usou o bot alguma vez use apenas:
+## Caso queira o bot na pasta downloads<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="29px">
 
 ```bash
-> cd Tiringa-BOT && npm start
+
+> termux-setup-storage 
+> cd storage
+> cd downloads
+> pkg install git     
+> git clone https://github.com/italuH/Tiringa-BOT    
+> cd Tiringa-BOT    
+> bash install.sh     
+> npm start
 ```
-
-## Caso queira ter acesso aos arquivos do bot:
-
-
+Em coamdando unico:
 ```bash
-> cp -r /data/data/com.termux/files/home/Tiringa-BOT /sdcard/Download  
+> termux-setup-storage && cd storage && cd downloads && pkg install git -y && git clone https://github.com/italuH/Tiringa-BOT && cd Tiringa-BOT && bash install.sh && npm start
+
 ```
-O comando irá copiar os arquivos do bot para a pasta /Download
+
+## Para que o bot não fique caindo<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="29px">
+
+Para instalar o PM2
+```bash
+
+> npm i pm2 -g  
+```  
+
+Para iniciar o bot em PM2
+```bash 
+
+> pm2 start index.js  
+> pm2 monit    
+```
+
+Para desativar o bot em PM2
+```bash
+> pm2 kill    
+```
+
+## Preview bash<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/gandalf_parrot.gif" width="29px">
+
+![Screenshot gif](https://raw.githubusercontent.com/italuH/Tiringa-BOT/main/ezgif-6-59ef6c9dcafd.gif)
+
+
 
 <p align='center'>
 
@@ -118,7 +119,7 @@ O comando irá copiar os arquivos do bot para a pasta /Download
 - [THOTH](https://github.com/thothdeus)
 
 
-
+<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif" alt="Mario Game" width="600" />
 
 
 
