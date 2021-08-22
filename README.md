@@ -12,7 +12,6 @@
 ## Olá, eu sou o Italu <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">
 
 
-
 <summary>Como instalar o  Tiringa-BOT<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px"></summary>
 
 ### Requisitos<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
@@ -82,9 +81,12 @@ Para desativar o bot em PM2
 ```
 
 ## Preview bash<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/gandalf_parrot.gif" width="29px">
-
-![Screenshot gif](https://raw.githubusercontent.com/italuH/Tiringa-BOT/main/ezgif-6-59ef6c9dcafd.gif)
-
+<p align="center">
+  
+<img src="https://raw.githubusercontent.com/italuH/Tiringa-BOT/main/ezgif-6-59ef6c9dcafd.gif" width="450">
+  
+<p align="center">
+  
 ## Agradecimentos especiais para
 
 - [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys) 
@@ -99,9 +101,9 @@ Para desativar o bot em PM2
 - [GDR](https://github.com/viniciusgdr)
 - [THOTH](https://github.com/thothdeus)
 
-
+<p align="center">
 <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif" alt="Mario Game" width="600" />
-
+<p align="center">
 
 
 
