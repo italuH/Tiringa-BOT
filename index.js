@@ -111,7 +111,7 @@ const ZeksKey = "adquira a sua no site https://zeks.xyz/"
 //_VCARD DONO DO BOT
 const vcard = 'BEGIN:VCARD\n' +
     'VersãoON:3.0\n' +
-    'FN:Italu🧙‍♂️\n' +
+    'FNbaiano\n' +
     'ORG:Dono do Tiringa;\n' +
     'TEL;type=CELL;type=VOICE;waid=557499510904:+55 (74) 9951-0904\n' +
     'END:VCARD'
@@ -195,7 +195,7 @@ tiringa.groupRemove(mdata.id, [num])
                 num = anu.participants[0]
                 anu_user = tiringa.contacts[mem]
                 teks = `Olá @${num.split('@')[0]}!!
-Bem-vindo(a) ao grupo ${mdata.subject}! Olhe as regras do grupo para não ser banido 
+Bem-vindo(a) ao grupo ${mdata.subject}! Olhe as regras do grupo para não ser banido!💥 
 
 Use o comando ${prefix}menu para listar meus comandos
  
@@ -590,13 +590,13 @@ Use o comando ${prefix}menu para listar meus comandos
 
             //_TIPO DE USUÁRIO
             if (isOwner) {
-                var tuser = 'El Italu🕴🏽'
+                var tuser = 'El baiano🕴🏽'
             } else if (isPremium) {
                 var tuser = 'Premium😎'
             } else if (sender == isUser) {
                 var tuser = 'Registrado 🥳'
             } else {
-                var tuser = 'Membro comum🗿'
+                var tuser = 'Membro especial 🧒'
             }
 
             //_XP COM LEVELING ATIVO
@@ -775,7 +775,7 @@ Use o comando ${prefix}menu para listar meus comandos
                 device_model
             } = tiringa.user.phone
 
-            //_VISUALIZA AS MENSAGENS 
+            //_NAO VISUALIZA AS MENSAGENS 
             tiringa.chatRead(from)
 
             //_CONTAGEM DE COMANDOS
