@@ -47,12 +47,7 @@ const ms = require('parse-ms')
 const cheerio = require('cheerio')
 const yts = require('yt-search')
 
-//kauanzito guei//
-
-
-
-
-
+//kauanzito baitolakk//
 
 //_ARQUIVOS DA LIB
 const { color, bgcolor } = require('./lib/color');
