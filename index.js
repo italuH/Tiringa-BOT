@@ -1,4 +1,3 @@
-//"use strict";
 const {
     WAConnection,
     MessageType,
@@ -46,6 +45,10 @@ const toMs = require('ms')
 const ms = require('parse-ms')
 const cheerio = require('cheerio')
 const yts = require('yt-search')
+
+
+
+
 
 //_ARQUIVOS DA LIB
 const { color, bgcolor } = require('./lib/color');
