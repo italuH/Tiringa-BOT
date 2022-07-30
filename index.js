@@ -1,4 +1,3 @@
-//"use strict";
 const {
     WAConnection,
     MessageType,
