@@ -51,8 +51,6 @@ const yts = require('yt-search')
 
 
 
-
-
 //_ARQUIVOS DA LIB
 const { color, bgcolor } = require('./lib/color');
 const { fetchJson, fetchText } = require('./lib/fetcher');
